@@ -48,7 +48,7 @@ scene.add(ambientLight);
 
 const directionalLight = new THREE.DirectionalLight(0xffffff, 1.2);
 directionalLight.position.set(1, 3, 5);
-scene.add(directionalLight);
+scene.add(directionalLight); 
 
 
 const lightHelper = new THREE.DirectionalLightHelper(directionalLight, 0.5);
